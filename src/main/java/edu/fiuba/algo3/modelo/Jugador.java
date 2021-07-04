@@ -19,7 +19,7 @@ public class Jugador {
 
 	public Object obtenerNombre() { return nombre; }
 
-	public int obtenerCantidadEjercitos() { return this.ejercitos.size(); } 
+	public int obtenerCantidadEjercitos() { return this.ejercitos.size(); }
 
 	public void agregarEjercitos(int cantidad) {
 		for (int i = 0; i < cantidad; i++){
