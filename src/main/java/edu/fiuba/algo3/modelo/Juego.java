@@ -80,7 +80,7 @@ public class Juego {
 
 		return jugador.obtenerPaises();
 	}
-
+//metodo nuevo
 	public void realizarAtaque(String atacante, String defensor) {
 		Jugador jugadorAtacante = jugadores.stream()
 			.filter(j -> j.obtenerNombre() == atacante)
