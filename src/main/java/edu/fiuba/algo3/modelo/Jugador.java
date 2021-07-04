@@ -17,9 +17,9 @@ public class Jugador {
 		return this.paises;
 	}
 
-	public Object obtenerNombre() {
-		return nombre;
-	}
+	public Object obtenerNombre() { return nombre; }
+
+	public int obtenerCantidadEjercitos() { return this.ejercitos.size(); } 
 
 	public void agregarEjercitos(int cantidad) {
 		for (int i = 0; i < cantidad; i++){
@@ -36,6 +36,10 @@ public class Jugador {
 		if (!paises.contains(pais)) 
 			throw new Exception();
 		
+	}
+
+	public void atacar(int cantidadSoldadosDefensor) {
+
 	}
 
 }
